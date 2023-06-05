@@ -1,0 +1,22 @@
+<!-- PAGE TEMPLATE -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="https://cdn.grimoire.rs/static/images/favicon512.png" type="image/png">
+
+    <!-- CSS -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.grimoire.tv/static/css/styles.css">
+
+    <!-- JavaScript -->
+    <script src="https://cdn.grimoire.tv/static/js/api.js"></script>
+  </head>
+  <body>
+    {% include "header.html" %}
+
+    {% block content %}{% endblock %}
+
+    {% include "footer.html" %}
+  </body>
+</html>
+
